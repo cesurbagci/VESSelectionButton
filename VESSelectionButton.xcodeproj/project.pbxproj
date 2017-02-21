@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1F66E51E5CCE7500565A31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F66E41E5CCE7500565A31 /* main.m */; };
+		8B1F66E81E5CCE7500565A31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F66E71E5CCE7500565A31 /* AppDelegate.m */; };
+		8B1F66EB1E5CCE7500565A31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F66EA1E5CCE7500565A31 /* ViewController.m */; };
+		8B1F66EE1E5CCE7500565A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F66EC1E5CCE7500565A31 /* Main.storyboard */; };
+		8B1F66F01E5CCE7500565A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F66EF1E5CCE7500565A31 /* Assets.xcassets */; };
+		8B1F66F31E5CCE7500565A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F66F11E5CCE7500565A31 /* LaunchScreen.storyboard */; };
+		8B1F66FD1E5CCF9800565A31 /* VESSelectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F66FC1E5CCF9800565A31 /* VESSelectionButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1F66E01E5CCE7500565A31 /* VESSelectionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VESSelectionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1F66E41E5CCE7500565A31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B1F66E61E5CCE7500565A31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B1F66E71E5CCE7500565A31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B1F66E91E5CCE7500565A31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B1F66EA1E5CCE7500565A31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B1F66ED1E5CCE7500565A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B1F66EF1E5CCE7500565A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B1F66F21E5CCE7500565A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B1F66F41E5CCE7500565A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1F66FB1E5CCF9800565A31 /* VESSelectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VESSelectionButton.h; sourceTree = "<group>"; };
+		8B1F66FC1E5CCF9800565A31 /* VESSelectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VESSelectionButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1F66DD1E5CCE7500565A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1F66D71E5CCE7500565A31 = {
+			isa = PBXGroup;
+			children = (
+				8B1F66E21E5CCE7500565A31 /* VESSelectionButton */,
+				8B1F66E11E5CCE7500565A31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1F66E11E5CCE7500565A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F66E01E5CCE7500565A31 /* VESSelectionButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1F66E21E5CCE7500565A31 /* VESSelectionButton */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F66FA1E5CCF5000565A31 /* component */,
+				8B1F66E61E5CCE7500565A31 /* AppDelegate.h */,
+				8B1F66E71E5CCE7500565A31 /* AppDelegate.m */,
+				8B1F66E91E5CCE7500565A31 /* ViewController.h */,
+				8B1F66EA1E5CCE7500565A31 /* ViewController.m */,
+				8B1F66EC1E5CCE7500565A31 /* Main.storyboard */,
+				8B1F66EF1E5CCE7500565A31 /* Assets.xcassets */,
+				8B1F66F11E5CCE7500565A31 /* LaunchScreen.storyboard */,
+				8B1F66F41E5CCE7500565A31 /* Info.plist */,
+				8B1F66E31E5CCE7500565A31 /* Supporting Files */,
+			);
+			path = VESSelectionButton;
+			sourceTree = "<group>";
+		};
+		8B1F66E31E5CCE7500565A31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F66E41E5CCE7500565A31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B1F66FA1E5CCF5000565A31 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				8B1F66FB1E5CCF9800565A31 /* VESSelectionButton.h */,
+				8B1F66FC1E5CCF9800565A31 /* VESSelectionButton.m */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B1F66DF1E5CCE7500565A31 /* VESSelectionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1F66F71E5CCE7500565A31 /* Build configuration list for PBXNativeTarget "VESSelectionButton" */;
+			buildPhases = (
+				8B1F66DC1E5CCE7500565A31 /* Sources */,
+				8B1F66DD1E5CCE7500565A31 /* Frameworks */,
+				8B1F66DE1E5CCE7500565A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VESSelectionButton;
+			productName = VESSelectionButton;
+			productReference = 8B1F66E01E5CCE7500565A31 /* VESSelectionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1F66D81E5CCE7500565A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = developer;
+				TargetAttributes = {
+					8B1F66DF1E5CCE7500565A31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B1F66DB1E5CCE7500565A31 /* Build configuration list for PBXProject "VESSelectionButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B1F66D71E5CCE7500565A31;
+			productRefGroup = 8B1F66E11E5CCE7500565A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1F66DF1E5CCE7500565A31 /* VESSelectionButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B1F66DE1E5CCE7500565A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1F66F31E5CCE7500565A31 /* LaunchScreen.storyboard in Resources */,
+				8B1F66F01E5CCE7500565A31 /* Assets.xcassets in Resources */,
+				8B1F66EE1E5CCE7500565A31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1F66DC1E5CCE7500565A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1F66EB1E5CCE7500565A31 /* ViewController.m in Sources */,
+				8B1F66E81E5CCE7500565A31 /* AppDelegate.m in Sources */,
+				8B1F66E51E5CCE7500565A31 /* main.m in Sources */,
+				8B1F66FD1E5CCF9800565A31 /* VESSelectionButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B1F66EC1E5CCE7500565A31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1F66ED1E5CCE7500565A31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B1F66F11E5CCE7500565A31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B1F66F21E5CCE7500565A31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B1F66F51E5CCE7500565A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B1F66F61E5CCE7500565A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B1F66F81E5CCE7500565A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VESSelectionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesurb.VESSelectionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B1F66F91E5CCE7500565A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VESSelectionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesurb.VESSelectionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1F66DB1E5CCE7500565A31 /* Build configuration list for PBXProject "VESSelectionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1F66F51E5CCE7500565A31 /* Debug */,
+				8B1F66F61E5CCE7500565A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1F66F71E5CCE7500565A31 /* Build configuration list for PBXNativeTarget "VESSelectionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1F66F81E5CCE7500565A31 /* Debug */,
+				8B1F66F91E5CCE7500565A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1F66D81E5CCE7500565A31 /* Project object */;
+}
