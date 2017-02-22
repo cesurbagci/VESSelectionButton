@@ -92,16 +92,30 @@ static BOOL _groupModifing = NO;
     [self drawButton];
 }
 
+- (void)prepareForInterfaceBuilder {
+    [self initRadioButton];
+    [self drawButton];
+}
+
 #pragma mark - UIControl
 
 - (void)setSelected:(BOOL)selected {
+    BOOL currentSelected = selected;
+    
     if (self.multipleSelectionEnabled) {
+        currentSelected = !self.isSelected;
         [super setSelected:!self.isSelected];
     } else {
         [super setSelected:selected];
         if (selected) {
             [self deselectOtherButtons];
         }
+    }
+    
+    if (currentSelected) {
+        [self setBackgroundColor:self.tintColor];
+    }else {
+        [self setBackgroundColor:[UIColor clearColor]];
     }
 }
 
@@ -114,7 +128,9 @@ static BOOL _groupModifing = NO;
 #pragma mark - private methods
 
 - (void)drawButton {
+    UIColor *defaulColor = self.selected ? [self titleColorForState:UIControlStateSelected | UIControlStateHighlighted] : [self titleColorForState:UIControlStateNormal];
     
+    NSLog(@"%@",defaulColor);
 }
 
 - (void)initRadioButton {
@@ -122,11 +138,18 @@ static BOOL _groupModifing = NO;
     //    _marginWidth = kDefaultMarginWidth;
     //    _animationDuration = kDefaultAnimationDuration;
     [super addTarget:self action:@selector(touchUpInside) forControlEvents:UIControlEventTouchUpInside];
+    [self.layer setCornerRadius:5.0f];
+    [self.layer setBorderWidth:1.0f];
+    [self setClipsToBounds:YES];
+    
+    
+//    [self setTintColor:self.tintColor];
 }
 
 - (void)deselectOtherButtons {
     for (UIButton *button in self.otherButtons) {
         [button setSelected:NO];
+        //        [self.layer setBackgroundColor:(__bridge CGColorRef _Nullable)([self titleForState:UIControlStateNormal])];
     }
 }
 

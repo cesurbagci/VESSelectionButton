@@ -16,9 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) IBOutletCollection(VESSelectionButton) NSArray<VESSelectionButton *> *otherButtons;
 
 #pragma mark - properties
-@property (nonatomic) BOOL multipleSelectionEnabled;
+@property (nonatomic) IB_DESIGNABLE BOOL multipleSelectionEnabled;
 
 #pragma mark - methods
+// return selected buttons
 - (NSArray<VESSelectionButton *> *)selectedButtons;
 
 @end
