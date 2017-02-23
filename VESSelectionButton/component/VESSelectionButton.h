@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - methods
 // return selected buttons
 - (NSArray<VESSelectionButton *> *)selectedButtons;
+- (VESSelectionButton *)selectedButton;
 
 @end
 NS_ASSUME_NONNULL_END
