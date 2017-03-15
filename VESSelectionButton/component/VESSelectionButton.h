@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol VESSelectionButtonDelegate <NSObject>
+
+@optional
+
+-(void) didSelectSelectionButton:( UIButton * _Nullable )selectedItem;
+-(void) didDeSelectSelectionButton:( UIButton * _Nullable )deSelectedItem;
+
+@end
+
 IB_DESIGNABLE
 NS_ASSUME_NONNULL_BEGIN
 @interface VESSelectionButton : UIButton
@@ -22,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 // return selected buttons
 - (NSArray<VESSelectionButton *> *)selectedButtons;
 - (VESSelectionButton *)selectedButton;
+#pragma mark - delegates
+@property (nonatomic, weak) id<VESSelectionButtonDelegate> delegate;
 
 @end
 NS_ASSUME_NONNULL_END

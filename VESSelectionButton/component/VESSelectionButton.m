@@ -106,6 +106,24 @@ static BOOL _groupModifing = NO;
         currentSelected = !self.isSelected;
         [super setSelected:!self.isSelected];
     } else {
+        
+        if (selected) {
+            if (!self.isSelected &&
+                [self.delegate conformsToProtocol:@protocol(VESSelectionButtonDelegate)] &&
+                [self.delegate respondsToSelector:@selector(didSelectSelectionButton:)]) {
+                
+                [self.delegate didSelectSelectionButton:self];
+            }
+            [self deselectOtherButtons];
+        }else {
+            if (self.isSelected &&
+                [self.delegate conformsToProtocol:@protocol(VESSelectionButtonDelegate)] &&
+                [self.delegate respondsToSelector:@selector(didDeSelectSelectionButton:)]) {
+                
+                [self.delegate didDeSelectSelectionButton:self];
+            }
+        }
+        
         [super setSelected:selected];
         if (selected) {
             [self deselectOtherButtons];
@@ -143,7 +161,7 @@ static BOOL _groupModifing = NO;
     [self setClipsToBounds:YES];
     
     
-//    [self setTintColor:self.tintColor];
+    //    [self setTintColor:self.tintColor];
 }
 
 - (void)deselectOtherButtons {
